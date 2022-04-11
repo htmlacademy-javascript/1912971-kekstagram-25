@@ -6,8 +6,8 @@ function randomInteger(min, max) {
 
 //Функция для проверки максимальной длины строки.
 function checkWritelineLength(currentString, maxLength) {
-  let maxLength <= 140;
-  if (currentString = maxLength) {
+  const maxLength = 140;
+  if (currentString <= maxLength) {
     console.log(true);
 
   } else {
